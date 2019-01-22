@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<BODY>
+<p1> Gather additional statistics and pass them as custom variables to chat: timestamp, visits, pageviews, chats number, visitor ID</p>
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 8713861;
+    (function() {
+      var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+    <noscript>
+    <a href="https://www.livechatinc.com/chat-with/8713861/">Chat with us</a>,
+    powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+    </noscript>
+    <!-- End of LiveChat code -->
+    
+    
+    <script type="text/javascript"> 
+    
+    var LC_API = LC_API || {};
+    LC_API.on_after_load = function() {
+       
+       var timestamp = LC_API.get_last_visit_timestamp();
+       var visits = LC_API.get_visits_number();
+       var pageviews = LC_API.get_page_views_number();
+       var chats = LC_API.get_chats_number();
+       var visitor_id = LC_API.get_visitor_id();
+    
+       var custom_variables = [
+      { name: 'timestamp', value: timestamp },
+      { name: 'visits', value: visits },
+      { name: 'pageviews', value: pageviews },
+      { name: 'chats', value: chats },
+      { name: 'visitor_id', value: visitor_id },
+    
+      
+    ];
+    LC_API.update_custom_variables(custom_variables);
+    };
+    
+    LC_API.on_chat_started = function(data) {
+    var chatid = LC_API.get_chat_id();
+    
+    var custom_variables = [
+      { name: 'chatid', value: chatid },
+    ];
+    LC_API.update_custom_variables(custom_variables);
+    };
+    </script>
+    </BODY>

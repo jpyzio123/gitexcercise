@@ -1,0 +1,1587 @@
+
+
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+    <html lang="en" class="ie7 oldie">
+<![endif]-->
+<!--[if IE 8]>
+    <html lang="en" class="ie8 oldie">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <base href="https://www.secure-hotel-booking.com"></base>
+    <title>The Student Hotel Groningen</title>
+    <link rel="icon" href="/smart/Content/Images/favicon.ico" />
+    
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <link href="/smart/Assets/Styles?v=tER3WOHg4h4WOVT0CKmuism62WhxKUh00ds6yWAeQK81" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/smart/The-Student-Hotel-Groningen/2A29/en/Brand/Css" />
+
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        var isBookingEngineMobile = false;
+        $(document).ready(function () {
+            isBookingEngineMobile = $(window).width() <= 768;
+        });
+    </script>
+</head>
+
+<body class="theme-dynamic responsive">
+
+
+    <div class="browser-banner">
+        <div class="browser-banner-inner">
+            <div class="browser-banner-left">
+                <i class="browser-banner-icon icon-warning-sign"></i>
+                <p class="browser-banner-title">You are using an older browser version, please update!</p>
+                <p class="browser-banner-subtitle">It&#39;s possible that your Internet browsing experience is degraded with this browser.</p>
+            </div>
+            <div class="browser-banner-right">
+                <a class="browser-banner-button" href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie" target="_blank">Update my browser</a>
+            </div>
+        </div>
+    </div>
+
+    <input name="__RequestVerificationToken" type="hidden" value="TwBumKpU_cPUe2wUO-M7DkWYZjRINPfb3yTa-G9ZRXxA4K-0-O2ePS9g6g1mrP1A94UN1NEZ4aZ9C2zTpYeio4AX1xWLAT2ApJY4X7o_zDo1" />
+    
+    <div class="js-header clearfix">
+        <link href=//www.secure-hotel-booking.com/smart/content/css/mobile.css rel=stylesheet>
+<link href=//www.thestudenthotel.com/wp-content/themes/tsh/stylesheets/TSH_Fonts_-_Web.css rel=stylesheet>
+<style>
+  .page {
+    max-width: 1027px;
+    width: 100%;
+  }
+
+  .last-unit {
+    overflow: visible;
+  }
+
+  #modal-extra-details .extra-image,
+  #modal-gallery .selected-image,
+  #modal-hotel-description .selected-image,
+  #modal-package-details .package-image,
+  .extra-selection-section .extra-gallery-item-image,
+  .page-aside .basket-summary,
+  .page-main .this-breadcrumb,
+  .room-selection-section .this-room .room-aside-image,
+  .room-selection-section .this-room-rates,
+  .summary-section .summary-room-item {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none
+  }
+
+  #modal-gallery .gallery-image,
+  #modal-hotel-description .gallery-image {
+    border: 0;
+    transform: rotate(0) !important;
+    -webkit-transform: rotate(0) !important;
+    bottom: 0 !important
+  }
+
+  .basket-summary ul.small li:nth-last-child(2),
+  .extra-selection-section .room-rates-col-occupancy,
+  .extra-selection-section .this-step-header,
+  .header .hotel-title-location,
+  .header .hotel-title-rank,
+  .page-main .breadcrumb-text-arrow,
+  .room-details-content-beds,
+  .room-details-gallery,
+  .room-rates-col-occupancy.room-rates-col-occupancy-package,
+  .room-rates-item-extra-icon,
+  .room-selection-section .this-step-header,
+  .summary-section .this-summary li:nth-child(3),
+  i.icon-caret-left,
+  i.icon-caret-right {
+    display: none
+  }
+
+  .room-rates-col-button,
+  .room-rates-col-button-booking-request,
+  .room-rates-col-button-restricted,
+  .room-rates-col-occupancy,
+  .room-rates-col-prices,
+  .room-rates-col-quantity,
+  .room-rates-col-rate-plan,
+  .room-rates-col-rate-plan-package,
+  .room-rates-col-remove,
+  .room-rates-col-total-price {
+    border-top: none
+  }
+
+  .basket .basket-summary {
+    display: block !important
+  }
+
+  body {
+    font-family: DINNextLTPro-Regular, 'Helvetica Neue', Arial
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: DINNextLTPro-BoldCondensed, Impact, 'Helvetica Neue', Arial
+  }
+
+  .header h1 {
+    text-transform: uppercase;
+    font-size: 3rem
+  }
+
+  .header .hotel-title-link-wrapper {
+    font-family: DINNextLTPro-Regular, 'Helvetica Neue', Arial;
+    vertical-align: top
+  }
+
+  .filters-link.this-link._skin-primary._icon-left {
+    border: 1px solid #000;
+    padding: 2px;
+    vertical-align: top;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background .2s linear, border-color .2s linear
+  }
+
+  .filters-link.this-link._skin-primary._icon-left:hover {
+    background: #fd0;
+    border-color: #fd0;
+    color: #000;
+  }
+
+  .filters-wrapper.mtn.mbs {
+    margin-bottom: 30px
+  }
+
+  .header .filters-date {
+    color: #000
+  }
+
+  .page-main .this-breadcrumb {
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 20px
+  }
+
+  .page-main .breadcrumb-text {
+    border: 1px solid #000;
+    padding: 12px 25px 5px 32px;
+    margin-right: 18px;
+    text-transform: uppercase;
+    font-family: DINNextLTPro-Condensed, 'Helvetica Neue', Arial;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    min-height: 24px;
+    height: auto
+  }
+
+  .page-main .breadcrumb-text:last-child {
+    margin-right: 0
+  }
+
+  .page-main .breadcrumb-text:not(.breadcrumb-text-disabled) {
+    background: #fd0
+  }
+
+  .breadcrumb-text span:nth-child(1):before,
+  .breadcrumb-text:before {
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 12px;
+    left: 8px
+  }
+
+  .breadcrumb-text:nth-child(1) span:nth-child(1):before {
+    content: '1'
+  }
+
+  .breadcrumb-text:nth-child(2):before {
+    content: '2'
+  }
+
+  .breadcrumb-text:nth-child(3):before {
+    content: '3'
+  }
+
+  .breadcrumb-text.breadcrumb-text-disabled {
+    transition: background .2s linear
+  }
+
+  .breadcrumb-text.breadcrumb-text-disabled:hover {
+    background: #eeeeef
+  }
+
+  .header .occupancy-adult-icon, .header .occupancy-children-icon, .header .occupancy-infant-icon {
+    font-size: 1.5em;
+  }
+
+  .markdown p:first-child {
+    margin-top: -2px;
+  }
+
+  .room-selection-section .room-filters {
+    background-color: #eeeeef
+  }
+
+  .room-selection-section .room-aside-left {
+    width: 280px
+  }
+
+  .room-selection-section .room-aside-left .icon-zoom-in {
+    border-top-left-radius: 0;
+    opacity: 1;
+    background: #fd0;
+    right: 0;
+    bottom: 0;
+    font-size: 1.65em;
+    line-height: 1em;
+    padding: 9px 11px 7px 12px;
+    transition: transform .2s linear
+  }
+
+  .room-selection-section .room-aside-left:hover .icon-zoom-in {
+    transform: scale(1.1)
+  }
+
+  .room-selection-section .room-aside-left .icon-zoom-in:before {
+    content: '\f067'
+  }
+
+  .room-selection-section .room-aside-right {
+    width: 390px;
+    height: 170px;
+    padding: 4px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+  }
+
+  .room-selection-section .room-aside-right .room-aside-title {
+    font-size: 3.4rem;
+    text-transform: uppercase
+  }
+
+  .room-selection-section .room-aside-right .this-button._skin-4.small {
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 2px 6px 2px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: auto;
+    transition: background .2s linear, border-color .2s linear
+  }
+
+  .room-selection-section .room-aside-right .this-button._skin-4.small:hover {
+    background: #fd0;
+    border-color: #fd0
+  }
+
+  .room-selection-section .room-aside-right .this-button._skin-4.small [class^=icon-] {
+    margin: 0 2px 0 4px
+  }
+
+  .room-selection-section .room-aside-image {
+    width: 280px;
+    height: 173px
+  }
+
+  .room-selection-section .room-aside-right .room-aside-items {
+    width: 420px
+  }
+
+  .room-selection-section .room-aside-right .room-aside-items-content {
+    width: 260px
+  }
+
+  .room-selection-section .this-room-rates .room-rates-head-occupancy {
+    line-height: 1.75em
+  }
+
+  .room-selection-section .this-room-rates {
+    border: 1px solid #000
+  }
+
+  .room-selection-section .this-room-rates {
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+  .room-selection-section .room-rates-item-package {
+    background: #fff
+  }
+
+  .room-selection-section .room-details-content {
+    padding: 10px 0 0 0
+  }
+
+  .room-selection-section .room-details-content-options-item {
+    width: 49%;
+    text-transform: uppercase;
+    font-size: .9em;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    vertical-align: top
+  }
+
+  .room-selection-section .room-details-content .room-details-content-description {
+    width: 50%;
+    float: right;
+    padding: 0
+  }
+
+  .room-selection-section .room-details-content .room-details-content-options {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    padding: 0
+  }
+
+  .room-selection-section .room-rates-item-availability {
+    color: #000;
+    width: 280px;
+    margin-right: 10px;
+    font-size: .75em
+  }
+
+  .extra-selection-section .room-rates-col-rate-plan.room-rates-col-rate-plan-package span {
+    text-transform: uppercase
+  }
+
+  .extra-selection-section .room-rates-col-rate-plan.room-rates-col-rate-plan-package {
+    padding: 15px 0 0 0
+  }
+
+  .extra-selection-section .room-aside-title.h5-like {
+    text-transform: uppercase;
+    font-size: 2.6rem
+  }
+
+  .extra-selection-section .room-rates-col-total-price .room-rates-item-total-price {
+    font-family: DINNextLTPro-BoldCondensed, Impact, 'Helvetica Neue', Arial;
+    font-size: 1.8rem
+  }
+
+  .extra-selection-section .this-button._skin-3._size-medium._icon-right {
+    margin-right: 0
+  }
+
+  .extra-selection-section .this-border-top {
+    border-color: #000
+  }
+
+  .extra-selection-section .room-rates-col-total-price {
+    width: 70px
+  }
+
+  .extra-selection-section .room-rates-col-quantity .room-rates-item-quantity {
+    border-color: #000;
+    width: 50px
+  }
+
+  .extra-selection-section .extra-gallery-item {
+    width: 100%;
+    height: 130px;
+    margin: 0 15px 12px 0
+  }
+
+  .extra-selection-section .extra-gallery-item-image {
+    float: left
+  }
+
+  .extra-selection-section .extra-gallery-item-name {
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+    padding-left: 32px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: DINNextLTPro-BoldCondensed, Impact, 'Helvetica Neue', Arial
+  }
+
+  .extra-selection-section .extra-gallery-item-price {
+    position: relative;
+    left: 32px;
+    bottom: 26px;
+    text-transform: uppercase
+  }
+
+  .extra-selection-section .extra-gallery-item-price-legend {
+    color: #000
+  }
+
+  .extra-selection-section .extra-gallery-item-book.this-button {
+    position: relative;
+    bottom: 95px;
+    left: 383px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 5px 5px 5px 24px;
+    width: 80px
+  }
+
+  .extra-selection-section .extra-gallery-item-details.this-link {
+    position: relative;
+    left: 32px;
+    top: 60px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 1px solid #000;
+    padding-top: 3px;
+    transition: background .2s linear, border-color .2s linear
+  }
+
+  .extra-selection-section .extra-gallery-item-details.this-link:hover {
+    background: #fd0;
+    border-color: #fd0
+  }
+
+  .extra-selection-section .extra-gallery-item-details.this-link:before {
+    content: '+';
+    padding: 0 2px 0 4px
+  }
+
+  .extra-selection-section .extra-gallery-item-reserved {
+    background: #eeeeef;
+    color: #000;
+    position: relative;
+    left: 280px;
+    bottom: 93px;
+    width: 180px
+  }
+
+  .extra-selection-section .this-link._skin-secondary._no-underline {
+    position: relative;
+    left: 0;
+    bottom: 0
+  }
+
+  .extra-selection-section .this-link._skin-secondary._no-underline .icon-remove {
+    color: #000
+  }
+
+  .summary-section .this-link._skin-primary._icon-left.summary-link {
+    border: 1px solid #000;
+    padding: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: background .2s linear, border-color .2s linear
+  }
+
+  .summary-section .this-link._skin-primary._icon-left.summary-link:hover {
+    border-color: #fd0;
+    background: #fd0
+  }
+
+  .summary-section .summary-col-price,
+  .summary-section .summary-col-price.summary-total-price,
+  .summary-section .summary-item-name {
+    font-family: DINNextLTPro-BoldCondensed, Impact, 'Helvetica Neue', Arial
+  }
+
+  .summary-section .summary-title.summary-total {
+    padding: 6px 0 0 0;
+    border-top: 1px solid #000;
+    background: #fff
+  }
+
+  .summary-section .summary-title.summary-total .summary-total-name {
+    width: 556px;
+    text-transform: uppercase
+  }
+
+  .summary-section .this-form-text#firstname,
+  .summary-section .this-form-text#lastname {
+    width: 245px;
+    min-height: 20px;
+  }
+
+  .summary-section label:not([for=salesterms]) {
+    text-transform: uppercase
+  }
+
+  .summary-section label[for=title] {
+    width: 100px;
+    display: block;
+    overflow: hidden
+  }
+
+  .summary-section label[for=title]+br {
+    display: none
+  }
+
+  .summary-section .this-form-select#title {
+    width: 100px
+  }
+
+  .summary-section .room-occupancy-col-title {
+    overflow: hidden
+  }
+
+  .summary-section .summary-title,
+  .summary-section .this-border-top,
+  .summary-section .this-step-header {
+    border-color: #000
+  }
+
+  .page-aside .basket-guarantee .h6-like {
+    font-size: 2rem
+  }
+
+  .page-aside .basket-guarantee .list-item {
+    border-radius: 0;
+    background: #eeeeef;
+    transition: background .2s linear
+  }
+
+  .page-aside .basket-guarantee .list-item:hover {
+    background: #fff
+  }
+
+  .page-aside .basket-summary {
+    background: #fff
+  }
+
+  .page-aside .basket-summary p {
+    font-size: 1.5rem
+  }
+
+  .page-aside .basket-summary .line {
+    font-size: 1.5rem
+  }
+
+  .page-aside .basket-summary .h6-like {
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: uppercase
+  }
+
+  .page-aside .basket-summary .bold {
+    font-size: 1.5em;
+    font-family: DINNextLTPro-BoldCondensed, Impact, 'Helvetica Neue', Arial;
+    text-transform: uppercase
+  }
+
+  .page-aside .basket-summary .basket-summary-item.this-border-bottom {
+    border-color: #000
+  }
+
+  #modal-gallery .gallery-image,
+  #modal-hotel-description .gallery-image {
+    margin: 0 0 4px 0 !important
+  }
+
+  #modal-gallery .gallery-image:hover,
+  #modal-hotel-description .gallery-image:hover {
+    bottom: 0 !important;
+    transform: scale(1.1) !important
+  }
+
+  #modal-hotel-description .h5-like {
+    font-weight: 500
+  }
+
+  .this-button {
+    text-transform: uppercase
+  }
+
+  .this-button._skin-3 {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    transition: background .2s linear, color .2s linear
+  }
+
+  .this-button._skin-3._size-medium {
+    border-radius: 0;
+    min-width: 70px
+  }
+
+  .this-button._skin-3._size-medium._icon-right {
+    padding: 5px 8px 3px 5px;
+    margin-right: 12px
+  }
+
+  .this-button._skin-3._size-medium._icon-left {
+    padding: 5px 8px 3px 5px;
+    margin-left: 12px
+  }
+
+  .check-availability-wrapper .this-button._skin-3._size-medium._icon-right {
+    padding: 7px 10px 7px 15px
+  }
+
+  .this-button._skin-4.small {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-transform: uppercase
+  }
+
+  .extra-selection-section .this-button._skin-3._size-medium {
+    background: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: border-color .2s linear, background .2s linear
+  }
+
+  .extra-selection-section .this-button._skin-3._size-medium._icon-left {
+    padding: 0 4px 0 0
+  }
+
+  .extra-selection-section .this-button._skin-3._size-medium._icon-right {
+    padding: 0 0 0 4px
+  }
+
+  .extra-selection-section .this-button._skin-3._size-medium:hover {
+    color: #000;
+    background: #fd0;
+    border-color: #fd0
+  }
+
+  div.black-header {
+    height: 78px;
+    background-color: #000
+  }
+
+  div.black-header div.black-header-container {
+    margin: auto;
+    padding-top: 28px;
+    width: 980px
+  }
+
+  div.black-header div.black-header-container svg {
+    height: 18px;
+    width: 306px
+  }
+
+  div.black-header div.black-header-container a.back {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-duration: .4s;
+    -moz-transition-duration: .4s;
+    transition-duration: .4s
+  }
+  
+  .page-head {
+	background-color: #fff;
+	height: 37px;
+  }
+
+  .page-head .menu-currency-top a,
+  .page-head .menu-currency-top i,
+  .page-head .menu-currency-top span,
+  .page-head .menu-customer-top a,
+  .page-head .menu-customer-top i,
+  .page-head .menu-customer-top span,
+  .page-head .menu-language-top a,
+  .page-head .menu-language-top i,
+  .page-head .menu-language-top span {
+    color: #000
+  }
+
+  div.black-header div.black-header-container a.back:hover {
+    color: #fd0
+  }
+  
+  .change-filters-control-wrapper .occupancy-select-wrapper:nth-child(3) {
+   	display : none ;
+  }
+
+
+  @media (max-width:980px) {
+    div.black-header div.black-header-container {
+      width: 700px
+    }
+  }
+
+  @media (max-width:768px) {
+    div.black-header div.black-header-container {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: auto
+    }
+    div.black-header div.black-header-container svg {
+      width: 100%
+    }
+    div.black-header div.black-header-container a.back {
+      display: none
+    }
+  }
+
+  .this-insertion {
+    background-color: #fd0
+  }
+
+  @media screen and (max-width:414px) {
+    .header h1 {
+      font-size: 2.8rem
+    }
+    .page-main .this-breadcrumb {
+      flex-wrap: wrap
+    }
+    .page-main .this-breadcrumb .breadcrumb-text {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 6px
+    }
+    .change-filters .this-button._skin-3._size-medium._icon-right,
+    .room-selection-section .this-button._skin-3._size-medium._icon-right {
+      padding: 0
+    }
+    .room-selection-section .room-aside-right .this-button._skin-4.small {
+      width: 100%;
+      padding: 0
+    }
+    .header .filters {
+      background: #fff;
+      padding: 0
+    }
+    .room-selection-section .room-aside-left {
+      width: 100%
+    }
+    .room-selection-section .room-aside-right {
+      width: 100%;
+      padding: 10px 0 0 0
+    }
+    .room-selection-section .room-aside-left .room-aside-image {
+      width: 100%;
+      height: auto
+    }
+    .room-selection-section .room-details .room-details-content-description {
+      width: 100%;
+      margin-bottom: 24px
+    }
+    .room-selection-section .room-details .room-details-content-options {
+      width: 100%
+    }
+    .room-selection-section .this-room-rates .room-rates-item {
+      padding: 0 12px;
+      border-radius: 0;
+      background: #fff;
+      border: none;
+      margin-top: 0
+    }
+    .extra-selection-section .extra-gallery-item {
+      height: auto
+    }
+    .extra-selection-section .extra-gallery-item-name {
+      padding-left: 0;
+      width: 100%
+    }
+    .extra-selection-section .extra-gallery-item-price {
+      position: static
+    }
+    .extra-selection-section .extra-gallery-item-book.this-button {
+      position: static;
+      padding: 0;
+      text-align: center;
+      width: 100%
+    }
+    .extra-selection-section .extra-gallery-item-details.this-link {
+      position: static;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 6px
+    }
+    .extra-selection-section .extra-gallery-item-reserved {
+      position: static
+    }
+    .extra-selection-section .this-link._skin-secondary._no-underline {
+      position: static
+    }
+    .extra-selection-section .this-button._skin-3._size-medium._icon-left {
+      float: left;
+      margin-left: 0
+    }
+    .summary-section #firstname.this-form-text,
+    .summary-section #lastname.this-form-text {
+      width: 100%
+    }
+    .summary-section label[for=title] {
+      width: 100%
+    }
+    .summary-section label[for=title]+br {
+      display: block
+    }
+    .summary-section .this-form-select#title {
+      width: 100%
+    }
+    .summary-section .this-form-select.room-occupancy-title {
+      width: 100%
+    }
+    .summary-section .this-form-select.room-occupancy-age {
+      width: 100%
+    }
+    .summary-section .room-occupancy-line .unit {
+      width: 94%
+    }
+    .summary-section .room-occupancy-line .room-occupancy-col-remove {
+      top: 5px
+    }
+    .summary-section .summary-title.summary-total .summary-col-name.summary-total-name {
+      width: 55%
+    }
+    .summary-section .summary-title.summary-total .summary-col-price.summary-total-price {
+      vertical-align: top
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .summary-section .summary-item .summary-col-name,
+    .summary-section .summary-room-item .summary-col-name {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start
+    }
+    .summary-section .summary-item-name {
+      text-transform: uppercase;
+      font-size: 2.6rem
+    }
+    .summary-section .summary-item-occupancy {
+      margin: 0 5px 0 10px
+    }
+    .summary-section .summary-item-info {
+      font-size: 1.6rem;
+      margin-left: auto
+    }
+    .summary-section .summary-col-quantity {
+      text-align: left;
+      width: 320px
+    }
+    .summary-section .summary-col-price {
+      width: 345px;
+      font-size: 1.6rem
+    }
+    .summary-section .summary-col-price.summary-total-price {
+      font-size: 2rem;
+      width: 112px
+    }
+    .summary-section .summary-title .summary-item-name {
+      font-size: 3.2rem
+    }
+  }
+</style>
+<div class=black-header>
+  <div class=black-header-container>
+    <a href=https://www.thestudenthotel.com/>
+      <svg height=56.95 id=Layer_1 viewBox="0 0 1096.657 56.95" width=1096.657 xmlns=http://www.w3.org/2000/svg><g fill=#FFF><path d="M973.438 1.688v1.13h5.665V54.12h-5.665v1.132h52.551V39.407h-24.77v-6.594h15.6V23.08h-15.6v-6.594h24.77V1.688h-46.887zM793.65 1.688v20.59h-10.696V1.687h-27.782v1.134h5.665V54.12h-5.665v1.132h27.782v-18.82h10.696v18.82h27.78V54.12h-5.66V2.822h5.66V1.688h-5.66zM1072.047 39.487V2.822h5.66V1.688h-33.36v1.134h5.66V54.12h-5.66v1.132h52.31V39.487zM861.63 0c-17.377 0-27.83 9.974-27.83 23.323v10.214c0 13.35 10.453 23.404 27.83 23.404 17.29 0 27.745-10.052 27.745-23.403V23.323C889.375 9.973 878.92 0 861.63 0zm5.225 35.467c0 3.78-1.61 5.87-5.226 5.87-3.62 0-5.31-2.09-5.31-5.87V21.473c0-3.86 1.69-5.95 5.31-5.95 3.615 0 5.225 2.09 5.225 5.95v13.994zM903.74 17.533h15.12v36.59h-5.66v1.13H946.56v-1.13h-5.664v-36.59h15.12V1.688H903.74zM475.84 1.695h-32.203v1.13h5.664v51.302h-5.663v1.133h32.204c18.5 0 27.747-8.768 27.747-21.717v-9.49c0-12.948-9.247-22.358-27.746-22.358zm5.47 31.124c0 4.183-1.69 7.32-6.755 7.32h-3.217V16.732h3.217c5.067 0 6.756 3.14 6.756 7.32v8.766zM514.406 1.695v1.133h5.666v51.3h-5.666v1.13h52.55V39.415h-24.77V32.82h15.603v-9.73h-15.603v-6.596h24.77v-14.8H520.07zM407.982 1.695v33.778c0 4.184-1.368 6.193-5.55 6.193s-5.63-2.01-5.63-6.193V1.695h-27.86v1.133h5.664V36.36c0 11.822 8.282 20.59 27.102 20.59 18.9 0 26.62-8.768 26.62-20.59V2.828h5.664V1.695H407.98zM266.535 13.993c4.262 0 10.615 2.333 16.245 5.952l9.49-10.455C287.043 4.584 278.758 0 265.89 0c-16.003 0-24.046 8.043-24.046 17.613 0 17.694 29.515 17.213 29.515 22.76 0 1.852-1.69 2.576-5.226 2.576-4.907 0-12.627-3.06-18.498-7.644l-9.33 11.822c6.193 5.63 16.728 9.812 28.392 9.812 17.05 0 25.573-7.96 25.573-18.256 0-17.616-30.158-16.57-30.158-22.118 0-1.768 1.77-2.573 4.423-2.573zM622.29 1.695V23.33l-2.253-3.3-13.914-18.335H582.12v1.133h5.667v51.3h-5.666v1.13H607.49V33.06l2.734 4.183 13.11 18.015h24.321v-1.13h-5.663v-51.3h5.663V1.695h-5.663zM662.403 17.54h15.118v36.587h-5.655v1.13h33.36v-1.13h-5.664V17.54h15.117V1.694h-52.274zM303.818 17.54h15.12v36.587h-5.653v1.13h33.354v-1.13h-5.666V17.54h15.12V1.694h-52.276zM144.93 1.69V2.82h5.663V54.12h-5.664v1.134h52.551V39.41h-24.77v-6.597h15.602V23.08H172.71v-6.594h24.77V1.69h-46.887zM105.247 1.69v20.59H94.55V1.69H66.767V2.82h5.663V54.12h-5.663v1.134H94.55V36.432h10.697v18.822h27.779V54.12h-5.664V2.822h5.665V1.69h-5.664zM0 17.533h15.12V54.12H9.46v1.134h33.359V54.12h-5.663V17.533h15.12V1.69H0z"></path></g></svg>
+    </a>
+    <a href=https://www.thestudenthotel.com/ class=back>Back to the website</a>
+  </div>
+</div>
+<script type="text/javascript">
+  var salesTermsConditionsUrl= "https://cdn-wp.s3-eu-central-1.amazonaws.com/wp-content/uploads/2018/04/2018-TermsConditions_NL_EN.pdf";
+</script>
+
+    </div>
+
+    <div id="applicationHost" class="page">
+        <div class="page-head"></div>
+
+<div class="page-background">
+    
+    <div class="page-main">
+    
+        <header class="header">
+            <h1>The Student Hotel Groningen
+                <span class="hotel-title-rank">
+                        <i class="hotel-title-rank-star icon-star"></i>
+                        <i class="hotel-title-rank-star icon-star"></i>
+                        <i class="hotel-title-rank-star icon-star"></i>
+                </span>
+                <span class="hotel-title-location">GRONINGEN</span>
+                <!--<span class="hotel-title-loader"><i class="icon-spinner icon-spin"></i></span>-->
+            </h1>
+            <p>Please wait while loading the booking engine...</p>
+        </header>
+    </div>
+    
+</div>
+    </div>
+
+
+<script>
+    (function(global) {
+        global.bookingEngine = {
+            pluginsConfig: [{"id":"AvailproGoogleUniversal","properties":{"accountId":"UA-2720050-15"}},{"id":"GoogleTagManager","properties":{"accountId":"GTM-NPBR5QJ","clientAccountId":"GTM-KHSWWM","products":{"plugins":{"enabled":false,"partners":[]}}}}],
+            bugsnagConfig: {"apiKey":"b94c67a2e02306e2bb667368fa223d07","releaseStage":"Production","version":"4.9.6.0","serverName":"SIRIONA-BE1","autoNotify":false},
+
+            controllerUrls: {
+                getRooms: '/smart/The-Student-Hotel-Groningen/2A29/en/Room/CheckAvailability',
+                getExtras: '/smart/The-Student-Hotel-Groningen/2A29/en/Extra/GetHotelExtras',
+                getSummaryInformations: '/smart/The-Student-Hotel-Groningen/2A29/en/Summary/GetSummaryInformation',
+                getTerms: '/smart/The-Student-Hotel-Groningen/2A29/en/Terms/GetTerms',
+                getInsurance: '/smart/The-Student-Hotel-Groningen/2A29/en/Guarantee/GetGuarantee',
+                getHotelDescription: '/smart/The-Student-Hotel-Groningen/2A29/en/Description/Hotel',
+
+                saveBasket: '/smart/The-Student-Hotel-Groningen/2A29/en/Cart/Save',
+                saveThenGetRoomExtras: '/smart/The-Student-Hotel-Groningen/2A29/en/Cart/SaveThenGetRoomExtras',
+                saveUpdatedRoom: '/smart/The-Student-Hotel-Groningen/2A29/en/Cart/SaveUpdatedRoom',
+
+                translateBasket: '/smart/The-Student-Hotel-Groningen/2A29/en/Basket/GetBasket',
+                redirectToCoreBe: '/smart/The-Student-Hotel-Groningen/2A29/en/Cart/RedirectToCoreBe'
+            },
+
+            errorReportEnabled: false,
+
+            bookingEngineReference: '2A29',
+            basketId: 'bookingEngineBasket-4.9.6.0-19431-2A29',
+            basketTimeout: 3600000,
+            guestsId: 'bookingEngineGuests-4.9.6.0-19431-2A29',
+            currency: {"value":"EUR","symbol":"","name":"Euro"},
+            currencies: { items: [], moreItems: [] },
+            culture: 'en-US',
+            language: 'en',
+            baseUrl: '/smart/The-Studt-Hotel-Groning/2A29/',
+            imageUrl: '/smart/Content/Images/',
+            durandalQuery: '/en?hotelname=The-Student-Hotel-Groningen&reference=2A29',
+            pageTitle: 'The Student Hotel Groningen',
+            legacyNoticeUrl: 'https://www.secure-hotel-booking.com/The-Student-Hotel-Groningen/2A29/en-US/legalnotice',
+            homeUrl: 'http://www.thestudenthotel.com/',
+            modificationUrl: 'https://www.secure-hotel-booking.com/modification/The-Student-Hotel-Groningen/2A29/en',
+            showHotelDescription: true,
+            showPolicy: false,
+            hotelCustomUrl: '',
+            maxRoomQuantity: 9,
+            hotelName: 'The Student Hotel Groningen',
+            hotelBrand: 'The Student Hotel Groningen',
+            hotelCity: 'Groningen',
+            hotelZipCode: '9712 LH',
+            hotelCountryCode: 'NL',
+            hotelType: 'Hotel',
+            hotelRating: 3,
+            hotelCategory: 'ThreeStar',
+            hotelRoomCount: 365,
+            hotelId: 19431,
+            isVisibleSearchPanel: false,
+            fromAddAnotherRoomType: false,
+            currentPage: null,
+            isNewbie: true,
+            guestsHasBeenUpdated: false,
+            isHotel: true,
+            availproApplicationName: 'smart',
+
+            params: {
+                checkinDate: null,
+                checkoutDate: null,
+                selectedAdultCount: 2,
+                selectedChildCount: 0,
+                selectedInfantCount: 0,
+                isVisibleChildCount: false,
+                isVisibleInfantCount: false,
+                hasCriterias: false,
+                isPartialCriterias: false,
+
+                rateId: null,
+                roomId: null,
+
+                selectedRate: '',
+                selectedRoomId: null,
+
+                offerCode: '',
+                occupancyId: 0,
+                quantity: 0,
+
+                hasBasket: false,
+                basket: {
+                    application: 'null',
+                    rateId: null,
+                    roomId: null,
+                    occupancyId: null,
+                    quantity: null,
+                },
+
+                trackingId: '',
+                directClickVisitId: '',
+                parametersUrl: '',
+                isMultiHotelCrossSellActivated: true,
+                isMixedRatesActivated: true
+            },
+
+            customerAccess: {
+                display: false,
+                isAuthenticated: false,
+                accountId: '',
+                customerId: '',
+                name: '',
+                email: '',
+                loginUrl: '',
+                logoutUrl: '',
+                createAccountUrl: '',
+                resetPasswordUrl: ''
+            },
+
+            guests: {
+                maxAdults: 30,
+                maxChildren: 30,
+                maxInfants: 30,
+                childMaxAge: 12,
+                infantMaxAge: 2,
+                childRange: 'Between the ages of 0 and 12 inclusive',
+                infantRange: 'Between the ages of 0 and 1',
+                hasOfferCode: true
+            },
+
+            maxNights: 365,
+            today: '2019-01-03',
+            maxPlanningDate: '2021-01-03',
+
+            basketModalTranslation: {
+                title: "Modify Booking",
+                message: "Are you sure you want to delete your basket ?",
+                confirm: "Yes",
+                cancel: "No"
+            },
+            errorTranslation: {
+                guestsFormError: "The form has errors.",
+                cancellationInsuranceError: "Please make a cancellation insurance choice.",
+                cancellationInsuranceSubscribableError: "The cancellation insurance can not be purchased with this payment method",
+                expiredBasket: "Expired basket",
+                roomsOccupancyError: "Please fill the name and the age of each guest with at least one guest per room.",
+                totalRoomQuantityError: "The total quantity of selected rooms is not available, please reduce the quantity."
+            },
+            validationTranslation: {
+                required: 'This field is required.',
+                min: 'Please enter a value greater than or equal to {0}.',
+                max: 'Please enter a value less than or equal to {0}.',
+                minLength: 'Please enter at least {0} characters.',
+                maxLength: 'Please enter no more than {0} characters.',
+                pattern: 'Please check this value.',
+                step: 'The value must increment by {0}.',
+                email: 'This is not a proper email address.',
+                date: 'Please enter a proper date.',
+                dateISO: 'Please enter a proper date.',
+                number: 'Please enter a number.',
+                digit: 'Please enter a digit.',
+                phoneUS: 'Please specify a valid phone number.',
+                equal: 'Values must equal.',
+                notEqual: 'Please choose another value.',
+                unique: 'Please make sure the value is unique.',
+                phoneNumber: 'Only numbers, spaces, and hyphens are allowed.',
+
+                // extenders
+                checked: 'Must be checked.',
+                creditCard: 'Card number not valid.',
+                checkinDateRequired: 'Check-in date is required.',
+                checkoutDateRequired: 'Check-out date is required.',
+                isValidCheckoutDate: 'The check-in date must be prior to the check-out date.'
+            },
+            commonTranslation: {
+                roomSelectionTitle: 'Choose a room',
+                extraSelectionTitle: 'Enhance your stay',
+                summaryTitle: 'Book'
+            },
+            customerAccountTranslation: {
+                login: 'Log In'
+            },
+            guestsPanelTranslation: {
+                thatDay: 'that\u0027s \u003cb\u003e{{ stayDuration }} night\u003c/b\u003e',
+                thatDays: 'that\u0027s \u003cb\u003e{{ stayDuration }} nights\u003c/b\u003e'
+            },
+            roomSelectionTranslation: {
+                totalForNight: 'Total price for {{ nightNumber }} night',
+                totalForNights: 'Total price for {{ nightNumber }} nights',
+                noAvailabilityForOffer: 'No availability could be found on this offer.'
+            },
+            summaryTranslation: {
+                fullOnlinePaymentText: '{{ amount }} is charged on your credit card. In case of cancellation, the refunding policy follows the cancellations terms and conditions below.',
+                byCreditCard: '{{ amount }} by credit/debit card',
+                payDeposit: 'Pay deposit amount of {{ amount }} only',
+                payAtHotel: 'Pay at the hotel',
+                remainingAmountPaidAtHotel: 'The balance will be paid at the hotel',
+                creditCardDetailsRequired: 'Payment information required to confirm the booking',
+                confirmMyBookingRequest: 'Confirm my availability request',
+                placeAnOption: 'Request an option',
+                confirmMyBooking: 'Confirm my booking',
+                selectACode: 'Select a code...',
+                termsAndPrivacyPolicyText: 'I have read the {{ termsAndConditions }} and the {{ privacyPolicy }} and confirm that I agree and understand them.',
+                termsText: 'Sales terms and conditions',
+                privacyPolicyText: 'Privacy Policy'
+            },
+            securedTransactionTranslation: {
+                name: 'Secured transaction',
+                description: 'Our website features advanced online security mechanisms. Each stage of the booking process is protected using \u003cb\u003eSecure Socket Layer (SSL)\u003c/b\u003e technology, the leading technology in this field. Your information is encrypted and protected using server authentication and data encryption mechanisms. \u003cbr/\u003e\u003cbr/\u003e The security certificate used is issued by an accredited third-party provider, Thawte. This certificate is used by the Availpro booking system. You can check the \u003ca class=\"this-link _skin-primary\" target=\"_blank\" href=\"https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf\u0026dn=WWW.SECURE-HOTEL-BOOKING.COM\u0026lang=fr\"\u003evalidity of the certificate here\u003c/a\u003e. \u003cbr/\u003e\u003cbr/\u003e The booking system is also hosted in a secure server environment with biometric security mechanisms, a firewall and other advanced technologies to prevent interference and intrusion.'
+            }
+        };
+
+        global.bookingEngine.isTouchBeSession = global.bookingEngine.params.basket.application === 'touch-be';
+    })(window);
+</script>
+
+<script src="/smart/Scripts/Resources/currencies-en.js"></script>
+
+<script type="text/javascript">
+    if (!window.console) { window.console = { log: function () { } }; }
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js?features=Array.prototype.find,Object.assign,Promise"></script>
+
+<script src="/smart/Assets/Scripts?v=2ziyyDtyQZQNn1e0NdbsqJnlOHcsC21BVzWeF5lwHok1"></script>
+
+
+
+    <script src="/smart/Scripts/libraries/require.min.js?v=4.9.6.0" data-main="/smart/Scripts/Built.js?v=4.9.6.0"></script>
+
+
+    
+    
+<script type="text/html" id="template-room">
+
+    <section class="this-room" data-bind="visible: visible">
+        <!-- $root.isVisibleRoom($data) && $root.roomHasSelectedRateFilter($data) -->
+
+        <div class="room-aside">
+            <div class="room-aside-left">
+                <img alt="" class="room-aside-image" data-bind="attr: { src: defaultPicture ? defaultPicture.display : '/smart/Content/Images/room-placeholder.png' }, css: { 'room-aside-image-placeholder': !defaultPicture }, click: $root.showGallery" />
+                <i class="icon-zoom-in" data-bind="visible: defaultPicture, click: $root.showGallery"></i>
+            </div>
+            <div class="room-aside-right">
+                <h3 class="room-aside-title h5-like" data-bind="text: name"></h3>
+                <table class="room-aside-items">
+                    <tr data-bind="visible: roomSize || roomSizes">
+                        <td class="room-aside-items-title">Room size:</td>
+                        <td class="room-aside-items-content"><span data-bind="text: $root.showMetricMeasures() ? roomSizes : roomSize"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="room-aside-items-title">Bedding:</td>
+                        <td class="room-aside-items-content" data-bind="foreach: beds">
+                            <span data-bind="visible: $index() > 0">, </span><span data-bind="text: count"></span> x <span data-bind="text: type"></span>
+                            <span data-bind="visible: twoPersonConvertible != false"> or <span data-bind="text: Math.floor(count/2)"></span> x Double bed</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="room-aside-items-title">Guests:</td>
+                        <td class="room-aside-items-content"><span data-bind="text: defaultOccupancy"></span></td>
+                    </tr>
+                </table>
+                <a class="this-button _skin-4 small" data-bind="collapse: { target: 'room-details-' + roomId, type: 'basic' }, visible: summary || beds.length || amenities.length, click: $root.trackRoomDetailsOpened">
+                    <i class="icon-minus"></i>
+                    <i class="icon-plus"></i>
+                    <span class="text-show">Show room details</span>
+                    <span class="text-hide">Hide room details</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="room-details collapse-content-hidden" data-bind="attr: { 'data-collapse-content': 'room-details-' + roomId }" data-collapse-type="basic">
+            <div class="room-details-gallery" data-bind="visible: pictures.length">
+                <!-- ko foreach: pictures -->
+                <img alt="" class="room-details-gallery-image" data-bind="attr: { src: display }, click: function (data, event) { $root.showGallery($parent, event); }" />
+                <!-- /ko -->
+            </div>
+            <div class="room-details-content" data-bind="css: { 'room-details-content-full-width': !pictures.length }">
+                <div class="room-details-content-description markdown" data-bind="visible: summary, html: summary"></div>
+                <ul class="room-details-content-beds small">
+                    <!-- ko foreach: beds -->
+                    <li class="room-details-content-beds-item">
+                        <span class="room-details-content-beds-item-name">
+                            <span data-bind="text: count"></span> x <span data-bind="text: type"></span>
+                        </span>
+                        <span data-bind="visible: size">
+                            (<span class="room-details-content-beds-item-size" data-bind="text: size"></span>)
+                        </span>
+                        <span class="room-details-content-beds-item-name" data-bind="visible: twoPersonConvertible != false">
+                            or
+                            <span data-bind="text: Math.floor(count/2)"></span>
+                            x Double bed
+                        </span>
+                    </li>
+                    <!-- /ko -->
+                </ul>
+                <p class="room-details-content-options" data-bind="visible: amenities.length">
+                    <!-- ko foreach: amenities -->
+                    <span class="room-details-content-options-item small" data-bind="text: name"></span>
+                    <!-- /ko -->
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <p class="this-insertion mbn mts" data-bind="visible: notEnoughPlace && visible()">
+        <i class="icon-info-sign"></i>
+        <span data-bind="text: notEnoughPlace"></span>
+    </p>
+
+    <table class="this-room-rates" cellspacing="0" data-bind="visible: visible">
+        <!-- $root.isVisibleRoom($data) && $root.roomHasSelectedRateFilter($data) -->
+        <tr data-bind="visible: showTabHeader">
+            <th class="room-rates-head-occupancy small">Maximum occupancy</th>
+            <th class="room-rates-head-rate-plan small">Sale price terms</th>
+            <th class="room-rates-head-prices small" data-bind="visible: !rates[0].isBookingRequest">Average price per night</th>
+            <th class="room-rates-head-button small" data-bind="visible: !rates[0].extendedStayNights, text: $root.totalNight"></th>
+        </tr>
+        <tbody data-bind="template: { name: $root.templateRate, foreach: rates }"></tbody>
+
+        <tr>
+            <td colspan="5">
+                <div class="collapse-content-hidden" data-bind="attr: { 'data-collapse-content': 'room-rates-' + roomId }, css: { 'room-rates-show-content': $root.isActiveFilters() }" data-collapse-type="new">
+                    <table cellspacing="0">
+                        <tbody data-bind="template: { name: $root.templateRate, foreach: moreRates }"></tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        <tr data-bind="visible: moreRates.length && !$root.isActiveFilters()">
+            <td colspan="5" class="pbm text-right this-border-top">
+                <a class="this-button _skin-6 mts" data-bind="collapse: { target: 'room-rates-' + roomId, type: 'new' }, click: $root.trackRateListExpanded">
+                    <i class="icon-minus"></i>
+                    <i class="icon-plus"></i>
+                    <span class="text-show">
+                        <span data-bind="visible: isRoom">More offers for this room</span>
+                        <span data-bind="visible: !isRoom">More offers for this accommodation</span>
+                    </span>
+                    <span class="text-hide">
+                        <span data-bind="visible: isRoom">Less offers for this room</span>
+                        <span data-bind="visible: !isRoom">Less offers for this accommodation</span>
+                    </span>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+</script>
+
+    
+<script type="text/html" id="template-rate">
+
+    <tr class="room-rates-item" data-bind="visible: visible, css: { 'room-rate-filtered': visible }">
+        <td class="room-rates-col-occupancy">
+            <div class="this-occupancy" data-bind="tooltip: 'this-tooltip'">
+
+                <span data-bind="if: (occupancy.adults + occupancy.children) > 4">
+                    <span class="occupancy-number" data-bind="text: occupancy.adults"></span>
+                    <i class="occupancy-icon-adult icon-user"></i>
+                </span>
+                <span data-bind="if: (occupancy.adults + occupancy.children) > 4 && occupancy.children">
+                    <span class="occupancy-number" data-bind="text: occupancy.children"></span>
+                    <i class="occupancy-icon-child icon-user"></i>
+                </span>
+
+                <span data-bind="if: (occupancy.adults + occupancy.children) < 5">
+                    <!-- ko foreach: new Array(occupancy.adults) -->
+                    <i class="occupancy-icon-adult icon-user"></i>
+                    <!-- /ko -->
+                    <!-- ko foreach: new Array(occupancy.children) -->
+                    <i class="occupancy-icon-child icon-user"></i>
+                    <!-- /ko -->
+                </span>
+
+                <div class="tooltip-content">
+                    <i class="tooltip-arrow"></i>
+                    <div class="tooltip-content-spacing">
+                        <p class="man" data-bind="visible: occupancy.value">
+                            <span class="bold">Maximum occupancy:</span>
+                            <span data-bind="text: occupancy.value"></span>
+                        </p>
+                        <p class="man" data-bind="visible: beds.length">
+                            <span class="bold">Bedding:</span>
+                            <!-- ko foreach: beds -->
+                            <span data-bind="visible: $index() > 0">,</span>
+                            <span data-bind="text: count"></span> x <span data-bind="    text: type"></span>
+                            <span data-bind="visible: twoPersonConvertible != false">
+                                or
+                                <span data-bind="text: Math.floor(count/2)"></span>
+                                x Double bed
+                            </span>
+                            <!-- /ko -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td class="room-rates-col-rate-plan">
+            <i class="room-rates-item-extra-icon" data-bind="visible: (type >= 1 && type <= 5), css: mealPlanSelector + ' tooltip-meal-plan-icon'"></i>
+
+            <span class="room-rates-item-title-meal-plan" data-bind="text: title"></span><br />
+            <a class="this-link _skin-primary _icon-right room-rates-item-package-link small" data-bind="visible: (type >= 6 && type <=11), click: $root.packageDetails">
+                Show details
+                <i class="icon-caret-right"></i>
+            </a>
+
+            <div class="room-rates-item-info" data-bind="tooltip: 'this-tooltip'">
+                <i class="room-rates-item-info-icon icon-info-sign"></i>
+                <p class="room-rates-item-info-text" data-bind="text: cancellationShortPolicy"></p>
+                <div class="tooltip-content">
+                    <i class="tooltip-arrow"></i>
+                    <div class="tooltip-content-header">
+                        <i class="icon-tag"></i>
+                        <span class="man bold" data-bind="text: rateName"></span>
+                    </div>
+                    <div class="tooltip-content-spacing">
+
+                        <div class="tooltip-content-amenity" data-bind="visible: mealPlanLabel">
+                            <span class="tooltip-content-amenity-icon">
+                                <i data-bind="css: mealPlanSelector + ' tooltip-meal-plan-icon'"></i>
+                            </span>
+                            <span class="man" data-bind="text: mealPlanLabel"></span>
+                        </div>
+
+                        <div class="tooltip-content-amenity" data-bind="visible: breakfastStatus">
+                            <span class="tooltip-content-amenity-icon">
+                                <i class="icon-coffee tooltip-facilities-icon"></i>
+                            </span>
+                            <span class="man" data-bind="text: breakfastStatus"></span>
+                        </div>
+
+                        <div class="tooltip-content-amenity mbs" data-bind="visible: internetStatus">
+                            <span class="tooltip-content-amenity-icon">
+                                <i class="icon-rss tooltip-facilities-icon"></i>
+                            </span>
+                            <span class="man" data-bind="text: internetStatus"></span>
+                        </div>
+
+                        <div data-bind="visible: cancellationPolicy">
+                            <p class="man bold">Cancellation Policy</p>
+                            <p class="man" data-bind="text: cancellationPolicy"></p>
+                        </div>
+                        <div class="mts" data-bind="visible: deposit">
+                            <p class="man bold">Deposit</p>
+                            <p class="man" data-bind="text: deposit"></p>
+                        </div>
+                        <div class="mts" data-bind="visible: excluded">
+                            <p class="man bold">Not included:</p>
+                            <p class="man" data-bind="text: excluded"></p>
+                        </div>
+                        <div class="mts" data-bind="visible: includedTaxes.length">
+                            <p class="man bold">Taxes included in the room price</p>
+                            <!-- ko foreach: includedTaxes -->
+                            <p class="man" data-bind="text: $data"></p>
+                            <!-- /ko -->
+                        </div>
+                        <div class="mts" data-bind="visible: excludedTaxes.length">
+                            <p class="man bold">Taxes added to the price of the room</p>
+                            <!-- ko foreach: excludedTaxes -->
+                            <p class="man" data-bind="text: $data"></p>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td class="room-rates-col-prices" data-bind="visible: !isBookingRequest">
+            <table>
+                <tr>
+                    <td>
+                        <p class="room-rates-item-price-out" data-bind="visible: formattedPriceOff, text: isBookingEngineMobile ? formattedTotalPriceOff : formattedPriceOff"></p>
+                        <div>
+                            <span class="room-rates-item-price-moy" data-bind="text: formattedPrice, css: { 'has-price-out': formattedPriceOff }"></span>
+                            <span class="room-rates-item-promo-code" data-bind="visible: offerCodeDescription && offerCodeType == 1, tooltip: 'this-tooltip'">
+                                <i class="room-rates-item-promo-code-icon" data-bind="css: offerCodeIcon"></i>
+                                <div class="tooltip-content">
+                                    <i class="tooltip-arrow"></i>
+                                    <div class="tooltip-content-header">
+                                        <i class="" data-bind="css: offerCodeIcon"></i>
+                                        <span class="man bold" data-bind="text: offerCodeTitle"></span>
+                                    </div>
+                                    <div class="tooltip-content-spacing">
+                                        <p class="man" data-bind="text: offerCodeDescription"></p>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <p class="room-rates-item-price-tax" data-bind="visible: includedTaxesAmount">
+                            included taxes <span data-bind="text: includedTaxesAmount"></span>
+                        </p>
+                        <p class="room-rates-item-price-tax" data-bind="visible: excludedTaxesAmount">
+                            Excluded taxes: <span data-bind="text: excludedTaxesAmount"></span>
+                        </p>
+                        <p class="room-rates-item-price-tax" data-bind="visible: taxesStatus">
+                            <span data-bind="text: taxesStatus"></span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+        <td class="room-rates-col-button" data-bind="visible: !isBookingRequest && !extendedStayNights">
+            <div>
+                <span class="room-rates-item-price-out" data-bind="visible: formattedTotalPriceOff && !isBookingEngineMobile, text: formattedTotalPriceOff"></span>
+                <span class="room-rates-item-promo-code" data-bind="visible: offerCodeDescription && offerCodeType == 2, tooltip: 'this-tooltip'">
+                    <i class="room-rates-item-promo-code-icon" data-bind="css: offerCodeIcon"></i>
+                    <div class="tooltip-content">
+                        <i class="tooltip-arrow"></i>
+                        <div class="tooltip-content-header">
+                            <i class="" data-bind="css: offerCodeIcon"></i>
+                            <span class="man bold" data-bind="text: offerCodeTitle"></span>
+                        </div>
+                        <div class="tooltip-content-spacing">
+                            <p class="man" data-bind="text: offerCodeDescription"></p>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <a class="this-button _skin-3 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                <span data-bind="text: formattedTotalPrice"></span>
+                <i class="icon-caret-right"></i>
+            </a>
+            <p class="room-rates-item-availability small" data-bind="visible: availability < 3, text: availabilityText"></p>
+        </td>
+
+        <td class="room-rates-col-button-booking-request" data-bind="visible: isBookingRequest">
+            <p class="room-rates-item-request-total-price" data-bind="text: formattedTotalPrice"></p>
+            <a class="this-button _skin-5 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                Availability request
+                <i class="icon-caret-right"></i>
+            </a>
+            <p class="room-rates-item-request-subtitle small">Reply within 48 hours</p>
+        </td>
+
+        <td class="room-rates-col-button-restricted" data-bind="visible: extendedStayNights">
+            <p class="room-rates-item-request-subtitle small" data-bind="visible: extendedMoreNights">Modify your stay to be eligible for this offer.</p>
+            <p class="room-rates-item-request-subtitle small" data-bind="visible: !extendedMoreNights">Modify your stay to be eligible for this offer.</p>
+            <a class="this-button _skin-5 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                <span data-bind="text: extendedStayText"></span>
+                <i class="icon-caret-right"></i>
+            </a>
+        </td>
+    </tr>
+
+</script>
+    
+<script type="text/html" id="template-rate-package">
+
+    <tr class="room-rates-item room-rates-item-package" data-bind="visible: visible, css: { 'room-rate-filtered': visible }">
+        <td class="room-rates-col-occupancy room-rates-col-occupancy-package">
+            <div class="room-rates-item-package-wrapper">
+                <img class="room-rates-item-package-wrapper-image" alt="" data-bind="attr: { src: defaultPicture ? defaultPicture.display : '/smart/Content/Images/package-placeholder.png' }, click: $root.packageDetails" />
+            </div>
+        </td>
+
+        <td class="room-rates-col-rate-plan-package" colspan="2">
+            <span data-bind="text: title"></span>
+            <span class="room-rates-col-rate-promo-code" data-bind="visible: offerCodeDescription, tooltip: 'this-tooltip'">
+                <i class="room-rates-col-rate-promo-code-icon icon-gift"></i>
+                <div class="tooltip-content">
+                    <i class="tooltip-arrow"></i>
+                    <div class="tooltip-content-header">
+                        <i class="icon-gift"></i>
+                        <span class="man bold" data-bind="text: offerCodeTitle"></span>
+                    </div>
+                    <div class="tooltip-content-spacing">
+                        <p class="man" data-bind="text: offerCodeDescription"></p>
+                    </div>
+                </div>
+            </span>
+            <br />
+            <a class="this-link _skin-primary _icon-right room-rates-item-package-link medium" data-bind="visible: (type >= 6 && type <= 11), click: $root.packageDetails">
+                Show details and all prices
+                <i class="icon-caret-right"></i>
+            </a>
+        </td>
+
+        <td class="room-rates-col-button" data-bind="visible: !isBookingRequest && !extendedStayNights">
+            <a class="this-button _skin-3 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                <span data-bind="text: formattedTotalPrice"></span>
+                <i class="icon-caret-right"></i>
+            </a>
+            <p class="room-rates-item-availability small" data-bind="visible: availability < 3, text: availabilityText"></p>
+        </td>
+
+        <td class="room-rates-col-button-booking-request" data-bind="visible: isBookingRequest">
+            <p class="room-rates-item-request-total-price" data-bind="text: formattedTotalPrice"></p>
+            <a class="this-button _skin-5 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                Availability request
+                <i class="icon-caret-right"></i>
+            </a>
+            <p class="room-rates-item-request-subtitle small">Reply within 48 hours</p>
+        </td>
+
+        <td class="room-rates-col-button-restricted" data-bind="visible: extendedStayNights">
+            <p class="room-rates-item-request-subtitle small">Modify your stay to be eligible for this offer.</p>
+            <a class="this-button _skin-5 _size-medium _icon-right" data-bind="click: $root.addRoomRateToBasket">
+                <span data-bind="text: extendedStayText"></span>
+                <i class="icon-caret-right"></i>
+            </a>
+        </td>
+    </tr>
+
+</script>
+
+    
+    
+<script type="text/html" id="template-room-extra">
+
+    <div class="this-room-extra" data-bind="css: { 'room-extra-not-included': !included() }">
+
+        <div class="room-extra-text">
+            <p class="room-extra-text-title">
+                <span data-bind="text: name"></span>
+                <span data-bind="visible: quantity() > 1 && included()">x <span data-bind="text: quantity"></span></span>
+            </p>
+            <a class="room-extra-text-action this-link _skin-primary _icon-right small" data-bind="click: $root.extraDetails">Show details&nbsp;<i class="icon-caret-right"></i></a>
+        </div>
+
+        <div class="room-extra-price-wrapper" data-bind="css: { 'room-extra-one-price-wrapper': !formattedPriceOff() }">
+            <label class="room-extra-price-out" data-bind="visible: !isMandatory() && formattedPriceOff(), text: formattedPriceOff(), attr: { 'for': $parent.roomId + '-extra-' + extraId() }, click: $root.basket.saveOnUpdateExtra"></label>
+            <label class="room-extra-price" data-bind="visible: (type() == 1 && !isMandatory()) || (type() == 2 && !isMandatory()), text: price() ? formattedPrice() : freeType(), attr: { 'for': $parent.roomId + '-extra-' + extraId() }, click: $root.basket.saveOnUpdateExtra"></label>
+
+            <label class="room-extra-price-out" data-bind="visible: isMandatory() && formattedPriceOff(), text: formattedPriceOff()"></label>
+            <label class="room-extra-price" data-bind="visible: isMandatory(), text: freeType() ? freeType() : formattedPrice()"></label>
+        </div>
+
+        <p class="room-extra-checkbox-wrapper">
+            <a class="room-extra-add this-button _skin-3 _size-small _icon-right _no-min-width" data-bind="visible: type() == 1 && !included() && !isMandatory(), click: $root.extraDetails">Add</a>
+
+            <span class="room-extra-checkbox this-form-custom-checkbox" data-bind="visible: (type() == 2 && !isMandatory()) || (type() == 1 && included() && !isMandatory())">
+                <input type="checkbox" data-bind="checked: included, attr: { id: $parent.roomId + '-extra-' + extraId() }" />
+                <label data-bind="attr: { 'for': $parent.roomId + '-extra-' + extraId() }, click: $root.basket.saveOnUpdateExtra">&nbsp;</label>
+            </span>
+        </p>
+
+    </div>
+
+</script>
+
+    
+<script type="text/html" id="template-hotel-extra">
+
+    <li class="extra-gallery-item">
+        <img class="extra-gallery-item-image" data-bind="attr: { src: defaultPicture().display ? defaultPicture().display : '/smart/Content/Images/extra-placeholder.png' }, click: $root.extraDetails" alt="" />
+        <p class="extra-gallery-item-name" data-bind="text: name"></p>
+        <a class="extra-gallery-item-details this-link _skin-primary _icon-right small" data-bind="click: $root.extraDetails">Show details&nbsp;<i class="icon-caret-right"></i></a>
+        <p class="extra-gallery-item-price">
+            <span class="extra-gallery-item-price-out" data-bind="text: formattedUnitPriceOff"></span>
+            <span class="extra-gallery-item-price-value" data-bind="text: freeType() ? freeType() : formattedUnitPrice()"></span>
+            <span class="extra-gallery-item-price-legend" data-bind="visible: !freeType(), text: labelType"></span>
+        </p>
+        <a class="extra-gallery-item-book this-button _skin-3 _size-small _icon-right _no-min-width" data-bind="fadeVisible: !included(), click: $root.extraDetails">Book&nbsp;<i class="icon-caret-right"></i></a>
+        <span class="extra-gallery-item-reserved small" data-bind="fadeVisible: included"><i class="icon-ok"></i>&nbsp;Added to basket</span>
+        <a class="this-link _skin-secondary _no-underline" data-bind="visible: !isMandatory() && included(), click: $root.removeExtraFromBasket"><i class="icon-remove"></i></a>
+    </li>
+
+</script>
+
+</body>
+</html>

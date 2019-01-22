@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<BODY>
+<p1> When chat is rated pass custom variable with Chat ID and information about rating </p>
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 8713861;
+    (function() {
+      var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+    <noscript>
+    <a href="https://www.livechatinc.com/chat-with/8713861/">Chat with us</a>,
+    powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+    </noscript>
+    <!-- End of LiveChat code -->
+    
+    
+    <script type="text/javascript"> 
+    
+    var LC_API = LC_API || {};
+    LC_API.on_rating_submitted = function(data) {
+       var chatid = LC_API.get_chat_id();
+       var custom_variables = [
+      { name: 'rated', value: true },
+      
+      
+    ];
+    LC_API.update_custom_variables(custom_variables);
+    };
+    </script>
+    </BODY>
